@@ -1,11 +1,11 @@
-include "main.h"
+#include "main.h"
 
 /**
- *_memcpy - function copies
- *@dest: pointer to memory destination
- *@src: pointer to memory source
- *@n: number of bytes to copy
- *Return: pointer to @dest
+ * _memcpy - irontnoux2
+ * @dest: pointer to char params
+ * @src: pointer to char params
+ * @n: size
+ * Return: *dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
