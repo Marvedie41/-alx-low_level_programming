@@ -30,7 +30,7 @@ int is_palindrome(char *s)
     int len = str_len(s);
     int a, b;
 
-    for (a = 0, b = len - 1; a < b; i++, b--)
+    for (a = 0, b = len - 1; a < b; a++, b--)
     {
         if (s[a] != s[b])
         {
