@@ -1,5 +1,5 @@
 /**
- * wildcmp - Compares two strings 
+ * wildcmp - Compares two strings
  * @s1: Pointer to the first string
  * @s2: Pointer to the second string
  *
