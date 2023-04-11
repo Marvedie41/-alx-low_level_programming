@@ -1,8 +1,11 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * free_grid - frees from memory 2-dimensional grid.
  * @grid: 2 multidimensional array.
  * @height: height of the grid.
- * 
+ *
  * Return: null.
  */
 
