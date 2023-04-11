@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * free_grid - function to free 2-D array.
+ * x_free_grid - function to free 2-D array.
  * @grid: multidimensional array
  * @height: height of array.
  *
  * Return: no return
  */
 
-void free_grid(char **grid, unsigned int height)
+void x_free_grid(char **grid, unsigned int height)
 {
 	if (grid != NULL && height != 0)
 	{
@@ -54,7 +54,7 @@ char **strtow(char *str)
 				x[i] = malloc((c - a1 + 2) * sizeof(char));
 				if (x[i] == NULL)
 				{
-					free_grid(x, i);
+					x_free_grid(x, i);
 					return (NULL);
 				}
 				break;
