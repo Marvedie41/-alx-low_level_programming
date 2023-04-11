@@ -8,6 +8,7 @@
  *
  * Return: null.
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *x;
@@ -46,7 +47,7 @@ char *argstostr(int ac, char **av)
 		if (ia < y - 1)
 			x[ia] = av[i][j];
 	}
-	aout[ia] = '\0';
+	x[ia] = '\0';
 
 	return (x);
 }
